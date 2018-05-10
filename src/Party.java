@@ -7,9 +7,4 @@ public class Party {
         this.name = name;
         this.deputies = deputies;
     }
-
-    @Override
-    public String toString() {
-        return this.name + " " + this.deputies;
-    }
 }
